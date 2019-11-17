@@ -16,7 +16,7 @@ class EventsNew extends Component{
 
     return (
       <div>
-        <input {...input} plaveholder={label} type={type}/>
+        <input {...input} placeholder={label} type={type}/>
         {touched && error && <span>{error}</span>}
       </div>
     )
